@@ -28,4 +28,5 @@ public class PersonService {
     public List<Person> getAllPeople(){
         return personDao.selectAllPeople();
     }
+    
 }
