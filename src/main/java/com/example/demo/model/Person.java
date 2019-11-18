@@ -9,7 +9,7 @@ public class Person {
 
     private final UUID id;
 
-    @NotBlank  
+    @NotBlank
     private final String name;
 
     // Mapping the property names of the Person constructor with JSON keys
